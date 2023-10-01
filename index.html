@@ -12,42 +12,45 @@
   </head>
 
   <body>
-    <section class="logo-section">
-      <img class="logo" src="images/logo.svg" alt="logo" />
-    </section>
+    <div class="left-side">
+      <section class="logo-section">
+        <img class="logo" src="images/logo.svg" alt="logo" />
+      </section>
 
-    <section class="image-2">
-      <img class="girl-pic" src="images/hero-mobile.jpg" alt="girl-photo" />
-    </section>
+      <section class="wcs-section">
+        <div class="wcs-text">
+          <p>
+            WE'RE
+            <span class="cs-text">COMING </span>
+            <span class="cs-text">SOON</span>
+          </p>
+        </div>
 
-    <section class="wcs-section">
-      <div class="wcs-text">
-        <p>
-          WE'RE
-          <span class="cs-text">COMING </span>
-          <span class="cs-text">SOON</span>
+        <p class="wcs-para">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
         </p>
-      </div>
+        <div class="email-button">
+          <form action="" method="get">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+            <button type="submit">
+              <i id="email-arrow" class="fa-solid fa-chevron-right fa-2xl"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
 
-      <p class="wcs-para">
-        Hello fellow shoppers! We're currently building our new fashion store.
-        Add your email below to stay up-to-date with announcements and our
-        launch deals.
-      </p>
-
-      <div class="email-button">
-        <input
-          class="email"
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email Address"
-        />
-
-        <button type="button">
-          <i id="email-arrow" class="fa-solid fa-chevron-right fa-2xl"></i>
-        </button>
-      </div>
+    <section class="image">
+      <img class="girl-pic-mob" src="images/hero-mobile.jpg" alt="girl-photo" />
+      <img class="girl-pic-desk" src="images/hero-desktop.jpg" alt="" />
     </section>
   </body>
 </html>
